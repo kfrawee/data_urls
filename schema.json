@@ -1,0 +1,40 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "type":"object",
+    "properties":{
+        "borrower":{
+            "type":"object",
+            "properties":{
+                "first_name":{
+                    "type":"string"
+                },
+                "last_name":{
+                    "type":"string"
+                },
+                "birth_date":{
+                    "type":"string"
+                },
+                "social_security_number":{
+                    "type":"number"
+                },
+                "company":{
+                    "type":"object",
+                    "properties":{
+                        "name":{
+                            "type":"string"
+                        }
+                    },
+                    "required":[
+                        
+                    ]
+                }
+            },
+            "required":[
+                
+            ]
+        }
+    },
+    "required":[
+        
+    ]
+}
