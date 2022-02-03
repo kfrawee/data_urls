@@ -1,0 +1,9 @@
+@prefix : <https://www.staircase.co/reserved/language#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.staircase.co/reserved/root> :borrower [ :birth_date "1990-01-01" ;
+            :company [ :name "Amazon" ] ;
+            :first_name "John" ;
+            :last_name "Doe" ;
+            :social_security_number 1.2345e+02 ] .
+
