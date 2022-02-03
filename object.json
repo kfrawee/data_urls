@@ -1,0 +1,11 @@
+{
+    "borrower": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "birth_date": "1990-01-01",
+        "social_security_number": 123.45,
+        "company": {
+            "name": "Amazon"
+        }
+    }
+}
